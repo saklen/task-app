@@ -1,0 +1,49 @@
+
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .task-table th {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .task-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .task-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .task-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  
+  .task-table button {
+    background-color: #ff3b30;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-inline-end: 10px;
+  }
+
+  .task-table button:hover {
+    background-color: #d91e18;
+  }
+
+  .link{
+    text-decoration: none;
+  }
+
+ 

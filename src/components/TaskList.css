@@ -1,0 +1,37 @@
+
+
+.task-list-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .filter-add-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
+  }
+  
+  
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-table th,
+  .task-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .no-tasks {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+  }
+
+
+  
+  
